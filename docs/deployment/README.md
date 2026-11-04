@@ -5,14 +5,16 @@
 ## 已有教程
 
 - [Ollama + Open WebUI：本地运行第一个模型](ollama-open-webui.md)
+- [Docker 部署 Ollama + Open WebUI](docker-ollama-open-webui.md)
 - [路线 C：从本地模型到生产级 AI 应用](../route-c/README.md)
 
 ## 推荐顺序
 
 1. 先完成 Ollama 基础部署。
-2. 再使用 Open WebUI 验证浏览器交互。
-3. 通过 API 将模型接入自己的脚本或应用。
-4. 根据吞吐量、显存和并发需求选择更专业的推理服务。
+2. 需要隔离和可重复部署时，使用 Docker Compose。
+3. 再使用 Open WebUI 验证浏览器交互。
+4. 通过 API 将模型接入自己的脚本或应用。
+5. 根据吞吐量、显存和并发需求选择更专业的推理服务。
 
 ## 规划中的专题
 

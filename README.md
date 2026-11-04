@@ -22,7 +22,8 @@
 ### 路线 A：第一次运行本地模型
 
 1. [完整部署教程：Ollama + Open WebUI](docs/deployment/ollama-open-webui.md)
-2. [部署教程索引和进阶路线](docs/deployment/README.md)
+2. [Docker 部署教程：Ollama + Open WebUI](docs/deployment/docker-ollama-open-webui.md)
+3. [部署教程索引和进阶路线](docs/deployment/README.md)
 
 ### 路线 B：想构建 Agent 应用
 
@@ -67,6 +68,7 @@ RAG、工作流、多 Agent、评测和生产部署
 | 文档                                                               | 适合读者      | 主要内容                                     |
 | ---------------------------------------------------------------- | --------- | ---------------------------------------- |
 | [Ollama + Open WebUI 完整教程](docs/deployment/ollama-open-webui.md) | 初学者、个人开发者 | 环境检查、模型选择、Ollama、API、Docker、Web UI、调优和排障 |
+| [Docker 部署 Ollama + Open WebUI](docs/deployment/docker-ollama-open-webui.md) | 想使用容器的开发者 | Compose、持久化、CPU/GPU、网络、安全和生命周期管理 |
 | [部署教程索引](docs/deployment/README.md)                              | 所有人       | vLLM、GPU、RAG、服务化和安全专题规划                  |
 
 ### Agent 与 Harness 知识

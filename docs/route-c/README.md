@@ -8,6 +8,7 @@
 | --- | ----------------------------------------------------------- | --------------------- |
 | 1   | [硬件评估、模型大小与量化选择](01-hardware-and-model-selection.md)        | 能根据资源选择模型，而不是盲目下载     |
 | 2   | [本地模型与推理服务](02-local-model-and-inference.md)                | 能运行模型并用 API 调用        |
+| 2a  | [Docker 部署 Ollama + Open WebUI](../deployment/docker-ollama-open-webui.md) | 能用 Compose 重复部署并持久化数据 |
 | 3   | [提示词、上下文与结构化输出](03-prompt-context-and-structured-output.md) | 能设计稳定、可校验的输出契约        |
 | 4   | [Agent 工具调用与任务执行](04-agent-tool-use.md)                     | 能让模型调用一个安全的只读工具       |
 | 5   | [Harness 工程化控制](05-harness-engineering.md)                  | 能限制步骤、权限、超时并保存状态      |
